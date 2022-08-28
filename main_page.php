@@ -111,7 +111,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 		   $id = $row['dessert_id'];
 			echo "<div class='w3-quarter  w3-center'>";
 			echo "<img src='images/".$row['name'].".jpg' style='width:100%;height:400px'>";
-			echo "<h3 style='text-transform:uppercase;'>".$row['type']." | ".$row['name']."</h3>";
+			echo "<h3 style='text-transform:uppercase;'>".$row['type']." | ".$row['name']." | ".$row['ppu']." </h3>";
 			echo "<button class='button' value = '$id'  onClick='addTopping(this)'>Topping</button>";
             echo "<button class='button' value = '$id'  onClick='addBatters(this)'>Batters</button>";
 			echo "</div>";
